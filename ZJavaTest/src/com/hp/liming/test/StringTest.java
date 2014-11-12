@@ -42,9 +42,28 @@ public class StringTest {
 //		System.out.println(VIEW_STATE_DRAG_HOVERED );
 //
 //	   System.out.println(2<<2);
-		String[] strs = new String[]{"1","2","3"};
-		List list = Arrays.asList(strs);
-		System.out.println(list.size());
+//		String[] strs = new String[]{"1","2","3"};
+//		List list = Arrays.asList(strs);
+//		System.out.println(list.size());
+		
+//		String s1 = "123";
+//		String s2 = "123";
+//		String s3 = new String("123");
+//		String s4 = new String("123");
+//		System.out.println(s1 == s2);
+//		System.out.println(s1.equals(s2));
+//		
+//		System.out.println(s3==s4);
+//		System.out.println(s3.equals(s4));
+		
+		Bean b1 = new Bean();
+		Bean b2 = new Bean();
+		System.out.println(b1== b2);
+		System.out.println(b1.equals(b2));
+		
+		Bean b3 = b1;
+		System.out.println(b1 == b3);
+		System.out.println(b1.equals(b3));
 	    
 	}
 	
